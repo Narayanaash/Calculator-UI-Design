@@ -33,8 +33,9 @@ body {
 }
 
 .wrapper {
+  width: 100%;
   .calculatorBox {
-    width: 420px;
+    width: 400px;
     max-width: 95%;
     margin: auto;
     background: #ea5f5c;
@@ -43,6 +44,7 @@ body {
     padding: 30px 35px;
     @media screen and (max-width: 480px) {
       padding: 25px 30px;
+      max-width: 90%;
     }
     .display {
       width: 100%;
