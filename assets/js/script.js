@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('.buttons > div').mousedown(function(){
         $(this).addClass('active')
-    }).mouseup(function(){
+    }).bind('mouseup mouseleave', function(){
         $(this).removeClass('active')
     });
 });
